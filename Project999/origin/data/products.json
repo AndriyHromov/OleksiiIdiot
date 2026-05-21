@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "name": "Brazil Santos",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 18.99,
+    "originalPrice": null,
+    "prices": {
+      "250g": 18.99,
+      "1kg": 67.99
+    },
+    "image": "images/imageBrasilSantos.png",
+    "description": "Medium roast coffee with smooth, balanced flavor and chocolate undertones.",
+    "longDescription": "Brazil Santos is a classic Brazilian coffee known for its smooth, balanced flavor profile. Grown in the São Paulo region, this coffee features notes of chocolate, nuts, and caramel with a creamy body and clean finish. Perfect for espresso and filter brewing alike.",
+    "tastingNotes": ["Almonds", "Chocolate", "Caramel"],
+    "specifications": {
+      "roast": "Medium",
+      "origin": "Brazil, São Paulo",
+      "process": "Natural",
+      "altitude": "800–1200m",
+      "variety": "Bourbon, Catuai",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 45,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-BRA-SAN-001",
+      "rating": 4.5,
+      "reviews": 128,
+      "tags": ["medium-roast", "chocolate", "nutty", "brazilian"]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ethiopia Yirgacheffe",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 19.99,
+    "originalPrice": null,
+    "prices": {
+      "250g": 19.99,
+      "1kg": 71.99
+    },
+    "image": "images/imageEthiopiaBoledu.png",
+    "description": "Light roast coffee with bright floral and citrus notes.",
+    "longDescription": "Ethiopia Yirgacheffe is renowned worldwide for its distinctive floral and citrus characteristics. This washed-process coffee from the Yirgacheffe region delivers bright acidity with complex floral aromas, bergamot hints, and a clean tea-like finish that lingers beautifully.",
+    "tastingNotes": ["Floral", "Citrus", "Tea leaves"],
+    "specifications": {
+      "roast": "Light",
+      "origin": "Ethiopia, Yirgacheffe",
+      "process": "Washed",
+      "altitude": "1800–2200m",
+      "variety": "Heirloom",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 32,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-ETH-YIR-002",
+      "rating": 4.7,
+      "reviews": 95,
+      "tags": ["light-roast", "floral", "citrus", "ethiopian"]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Guatemala Antigua",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 22.50,
+    "originalPrice": null,
+    "prices": {
+      "250g": 22.50,
+      "1kg": 79.99
+    },
+    "image": "images/imageGuatemalaAntigua.png",
+    "description": "Medium-dark roast with rich, complex smoky flavor.",
+    "longDescription": "Guatemala Antigua offers a rich, complex cup with smoky and spicy notes. Grown in volcanic soil near the Antigua volcano, this coffee delivers a full body with chocolate and spice undertones, supported by a gentle natural sweetness from the terroir.",
+    "tastingNotes": ["Spice", "Chocolate", "Smoke"],
+    "specifications": {
+      "roast": "Medium-Dark",
+      "origin": "Guatemala, Antigua",
+      "process": "Washed",
+      "altitude": "1500–1800m",
+      "variety": "Bourbon, Catuai",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 28,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-GUA-ANT-003",
+      "rating": 4.6,
+      "reviews": 87,
+      "tags": ["medium-dark-roast", "spicy", "chocolate", "guatemalan"]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Colombia Supremo",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 20.99,
+    "originalPrice": 24.99,
+    "prices": {
+      "250g": 20.99,
+      "1kg": 74.99
+    },
+    "image": "images/imageBrasilSantos.png",
+    "description": "Medium roast with classic nutty and chocolate notes.",
+    "longDescription": "Colombia Supremo represents the finest grade of Colombian coffee. This medium roast offers a well-balanced cup with prominent nutty and chocolate flavors, complemented by a smooth, creamy body and pleasant caramel sweetness.",
+    "tastingNotes": ["Nutty", "Chocolate", "Caramel"],
+    "specifications": {
+      "roast": "Medium",
+      "origin": "Colombia, Huila",
+      "process": "Washed",
+      "altitude": "1200–1800m",
+      "variety": "Caturra, Typica",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 41,
+      "isBestseller": false,
+      "isNew": false,
+      "isOnSale": true
+    },
+    "metadata": {
+      "sku": "COF-COL-SUP-004",
+      "rating": 4.4,
+      "reviews": 156,
+      "tags": ["medium-roast", "nutty", "chocolate", "colombian"]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Kenya AA",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 24.99,
+    "originalPrice": null,
+    "prices": {
+      "250g": 24.99,
+      "1kg": 89.99
+    },
+    "image": "images/imageGuatemalaAntigua.png",
+    "description": "Bright, acidic coffee with distinctive wine-like notes.",
+    "longDescription": "Kenya AA is the highest grade of Kenyan coffee, known for its bright acidity and complex flavor profile. This coffee features distinctive blackcurrant and wine-like notes with a juicy, vibrant character that makes it truly unique among specialty coffees.",
+    "tastingNotes": ["Blackcurrant", "Tomato", "Citrus"],
+    "specifications": {
+      "roast": "Medium",
+      "origin": "Kenya, Nyeri",
+      "process": "Washed",
+      "altitude": "1500–2100m",
+      "variety": "SL28, SL34",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 19,
+      "isBestseller": false,
+      "isNew": true,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-KEN-AA-005",
+      "rating": 4.8,
+      "reviews": 203,
+      "tags": ["medium-roast", "fruity", "wine-like", "kenyan"]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Brazil Mogiana",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 17.99,
+    "originalPrice": null,
+    "prices": {
+      "250g": 17.99,
+      "1kg": 64.99
+    },
+    "image": "images/imageBrasilMogiana.png",
+    "description": "Smooth, sweet coffee with distinctive nutty undertones.",
+    "longDescription": "Brazil Mogiana is known for its smooth, sweet profile with distinctive nutty characteristics. This natural process coffee from the Mogiana region offers notes of persimmon and cocoa with a creamy body and long, pleasant finish.",
+    "tastingNotes": ["Almonds", "Persimmons", "Cocoa beans"],
+    "specifications": {
+      "roast": "Medium",
+      "origin": "Brazil, Mogiana",
+      "process": "Natural",
+      "altitude": "900–1200m",
+      "variety": "Mundo Novo, Catuai",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 38,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-BRA-MOG-006",
+      "rating": 4.4,
+      "reviews": 112,
+      "tags": ["medium-roast", "nutty", "sweet", "brazilian"]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Colombia Excelso",
+    "category": "Specialty Coffee",
+    "subcategory": "Single Origin",
+    "price": 21.50,
+    "originalPrice": null,
+    "prices": {
+      "250g": 21.50,
+      "1kg": 77.99
+    },
+    "image": "images/imageEthiopiaBoledu.png",
+    "description": "Rich, full-bodied coffee with chocolate notes.",
+    "longDescription": "Colombia Excelso is a grade just below Supremo but equally celebrated for its richness and consistency. A full-bodied cup with deep chocolate and caramel notes balanced by gentle acidity, making it ideal for all brew methods.",
+    "tastingNotes": ["Chocolate", "Caramel", "Nutty"],
+    "specifications": {
+      "roast": "Medium",
+      "origin": "Colombia, Nariño",
+      "process": "Washed",
+      "altitude": "1400–2000m",
+      "variety": "Caturra",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 25,
+      "isBestseller": false,
+      "isNew": true,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "COF-COL-EXC-007",
+      "rating": 4.3,
+      "reviews": 67,
+      "tags": ["medium-roast", "chocolate", "colombian"]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Syrup",
+    "category": "Craft Syrups",
+    "subcategory": "Flavored Syrups",
+    "price": 12.99,
+    "originalPrice": null,
+    "prices": {
+      "250ml": 12.99,
+      "1L": 44.99
+    },
+    "image": "images/imageBrasilSantos.png",
+    "description": "Premium vanilla syrup crafted from real vanilla beans.",
+    "longDescription": "Our premium vanilla syrup is crafted using real Madagascar vanilla beans and pure cane sugar. No artificial colors or flavors — just the authentic, warm aroma of genuine vanilla. Perfect for coffee, cocktails, and desserts.",
+    "tastingNotes": ["Vanilla", "Sweet", "Aromatic"],
+    "specifications": {
+      "volume": "250ml",
+      "origin": "Ukraine, Kyiv",
+      "process": "Artisanal",
+      "variety": "Madagascar Vanilla",
+      "bestBefore": "6 months"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 67,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "SYR-VAN-001",
+      "rating": 4.3,
+      "reviews": 45,
+      "tags": ["vanilla", "sweet", "aromatic", "syrup"]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Caramel Syrup",
+    "category": "Craft Syrups",
+    "subcategory": "Flavored Syrups",
+    "price": 11.99,
+    "originalPrice": null,
+    "prices": {
+      "250ml": 11.99,
+      "1L": 41.99
+    },
+    "image": "images/imageBrasilMogiana.png",
+    "description": "Rich caramel syrup with buttery undertones.",
+    "longDescription": "Our rich caramel syrup is made by slowly caramelizing pure cane sugar to create deep, buttery flavors. A classic companion for lattes, cappuccinos, and creamy desserts — pure indulgence in every drop.",
+    "tastingNotes": ["Caramel", "Butter", "Sweet"],
+    "specifications": {
+      "volume": "250ml",
+      "origin": "Ukraine, Kyiv",
+      "process": "Artisanal",
+      "variety": "Caramelized Sugar",
+      "bestBefore": "6 months"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 52,
+      "isBestseller": false,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "SYR-CAR-002",
+      "rating": 4.5,
+      "reviews": 38,
+      "tags": ["caramel", "buttery", "sweet", "syrup"]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Hazelnut Syrup",
+    "category": "Craft Syrups",
+    "subcategory": "Flavored Syrups",
+    "price": 10.99,
+    "originalPrice": null,
+    "prices": {
+      "250ml": 10.99,
+      "1L": 38.99
+    },
+    "image": "images/imageGuatemalaAntigua.png",
+    "description": "Rich hazelnut flavored syrup for coffee and desserts.",
+    "longDescription": "Our artisanal hazelnut syrup brings the warm, toasty richness of freshly roasted hazelnuts to your cup. Made from natural ingredients without artificial additives — ideal for nut-flavored lattes and pastries.",
+    "tastingNotes": ["Hazelnut", "Sweet", "Nutty"],
+    "specifications": {
+      "volume": "250ml",
+      "origin": "Ukraine, Kyiv",
+      "process": "Artisanal",
+      "variety": "Roasted Hazelnut",
+      "bestBefore": "6 months"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 58,
+      "isBestseller": false,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "SYR-HAZ-003",
+      "rating": 4.2,
+      "reviews": 34,
+      "tags": ["hazelnut", "sweet", "coffee-syrup"]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Lavender Syrup",
+    "category": "Craft Syrups",
+    "subcategory": "Botanical Syrups",
+    "price": 13.99,
+    "originalPrice": 15.99,
+    "prices": {
+      "250ml": 13.99,
+      "1L": 49.99
+    },
+    "image": "images/imageBrasilSantos.png",
+    "description": "Delicate lavender syrup for floral coffee and cocktail experiences.",
+    "longDescription": "Our lavender syrup is crafted from hand-picked Provençal lavender blossoms steeped in pure cane sugar syrup. A sophisticated ingredient for specialty lattes, lemonades, and cocktails — subtly floral, never overpowering.",
+    "tastingNotes": ["Lavender", "Floral", "Honey"],
+    "specifications": {
+      "volume": "250ml",
+      "origin": "Ukraine, Kyiv",
+      "process": "Artisanal",
+      "variety": "Provençal Lavender",
+      "bestBefore": "6 months"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 30,
+      "isBestseller": false,
+      "isNew": true,
+      "isOnSale": true
+    },
+    "metadata": {
+      "sku": "SYR-LAV-004",
+      "rating": 4.6,
+      "reviews": 22,
+      "tags": ["lavender", "floral", "botanical", "syrup"]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Jasmine Green Tea",
+    "category": "Premium Tea",
+    "subcategory": "Scented Tea",
+    "price": 16.99,
+    "originalPrice": null,
+    "prices": {
+      "100g": 16.99,
+      "500g": 74.99
+    },
+    "image": "images/imageEthiopiaBoledu.png",
+    "description": "Fragrant green tea scented with fresh jasmine flowers.",
+    "longDescription": "Our Jasmine Green Tea is made by scenting high-quality green tea leaves with fresh jasmine blossoms through the traditional Chinese method. The process is repeated multiple times to achieve a deep, persistent floral aroma with a gentle, sweet finish.",
+    "tastingNotes": ["Jasmine", "Floral", "Fresh"],
+    "specifications": {
+      "origin": "China, Fujian",
+      "process": "Scented",
+      "altitude": "800–1200m",
+      "variety": "Jasmine Pearls",
+      "harvest": "Spring 2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 34,
+      "isBestseller": true,
+      "isNew": true,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "TEA-JAS-001",
+      "rating": 4.6,
+      "reviews": 67,
+      "tags": ["jasmine", "floral", "green-tea", "scented"]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Earl Grey",
+    "category": "Premium Tea",
+    "subcategory": "Black Tea",
+    "price": 14.99,
+    "originalPrice": null,
+    "prices": {
+      "100g": 14.99,
+      "500g": 64.99
+    },
+    "image": "images/imageBrasilMogiana.png",
+    "description": "Classic black tea with bergamot flavor.",
+    "longDescription": "Our Earl Grey is a timeless blend of robust Sri Lankan black tea and the bright, citrusy essence of bergamot orange. Full-bodied and aromatic, it is equally perfect enjoyed plain or with a splash of milk.",
+    "tastingNotes": ["Bergamot", "Citrus", "Floral"],
+    "specifications": {
+      "origin": "Sri Lanka",
+      "process": "Orthodox",
+      "variety": "Ceylon BOP",
+      "harvest": "2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 42,
+      "isBestseller": true,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "TEA-EAR-002",
+      "rating": 4.5,
+      "reviews": 156,
+      "tags": ["black-tea", "bergamot", "classic"]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Oolong Mountain",
+    "category": "Premium Tea",
+    "subcategory": "Oolong Tea",
+    "price": 21.99,
+    "originalPrice": null,
+    "prices": {
+      "100g": 21.99,
+      "500g": 94.99
+    },
+    "image": "images/imageGuatemalaAntigua.png",
+    "description": "High-altitude oolong with creamy, orchid-like character.",
+    "longDescription": "Our Oolong Mountain tea is sourced from high-altitude gardens in Taiwan's Ali Shan region. Lightly oxidized to perfection, it expresses a creamy, buttery texture with delicate orchid and peach notes — a tea for those who seek complexity.",
+    "tastingNotes": ["Orchid", "Peach", "Creamy"],
+    "specifications": {
+      "origin": "Taiwan, Ali Shan",
+      "process": "Partial Oxidation",
+      "altitude": "1000–1600m",
+      "variety": "Qingxin",
+      "harvest": "Spring 2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 18,
+      "isBestseller": false,
+      "isNew": false,
+      "isOnSale": false
+    },
+    "metadata": {
+      "sku": "TEA-OOL-003",
+      "rating": 4.8,
+      "reviews": 89,
+      "tags": ["oolong", "creamy", "floral", "taiwanese"]
+    }
+  },
+  {
+    "id": 15,
+    "name": "White Peony",
+    "category": "Premium Tea",
+    "subcategory": "White Tea",
+    "price": 18.50,
+    "originalPrice": 20.00,
+    "prices": {
+      "100g": 18.50,
+      "500g": 79.99
+    },
+    "image": "images/imageBrasilSantos.png",
+    "description": "Delicate white tea with honey and melon notes.",
+    "longDescription": "White Peony (Bai Mu Dan) is one of China's most prized white teas. Made from young buds and the first two leaves, it delivers a clean, soft sweetness with hints of honey, fresh melon, and a subtle floral undertone. Minimal processing preserves maximum antioxidants.",
+    "tastingNotes": ["Honey", "Melon", "Soft"],
+    "specifications": {
+      "origin": "China, Fujian",
+      "process": "Sun-dried",
+      "altitude": "600–900m",
+      "variety": "Bai Mu Dan",
+      "harvest": "Spring 2024"
+    },
+    "availability": {
+      "inStock": true,
+      "stockLevel": 22,
+      "isBestseller": false,
+      "isNew": false,
+      "isOnSale": true
+    },
+    "metadata": {
+      "sku": "TEA-WHI-004",
+      "rating": 4.7,
+      "reviews": 44,
+      "tags": ["white-tea", "honey", "delicate", "chinese"]
+    }
+  }
+]

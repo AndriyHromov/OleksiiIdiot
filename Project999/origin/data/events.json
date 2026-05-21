@@ -1,0 +1,26 @@
+[
+  {
+    "id": "EVT-2025-001",
+    "title": "Coffee Tasting Workshop",
+    "date": "2025-06-15",
+    "time": "14:00",
+    "location": "Origin Cafe, Kyiv",
+    "capacity": 20,
+    "registered": 15,
+    "status": "upcoming",
+    "description": "Learn about different coffee origins and tasting notes",
+    "image": "images/image1.jpg"
+  },
+  {
+    "id": "EVT-2025-002",
+    "title": "Tea Ceremony Masterclass",
+    "date": "2025-07-20",
+    "time": "16:00",
+    "location": "Origin Cafe, Kyiv",
+    "capacity": 12,
+    "registered": 8,
+    "status": "upcoming",
+    "description": "Traditional tea ceremony with premium teas",
+    "image": "images/image12.png"
+  }
+]

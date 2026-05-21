@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CONS-2025-001",
+    "date": "2025-05-12",
+    "name": "John Doe",
+    "phone": "+380 50 123 4567",
+    "topic": "Looking for specialty coffee recommendations for my cafe",
+    "status": "pending"
+  },
+  {
+    "id": "CONS-2025-002",
+    "date": "2025-05-14",
+    "name": "Maria Smith",
+    "phone": "+380 67 987 6543",
+    "topic": "Need advice on tea selection for wedding event",
+    "status": "contacted"
+  }
+]

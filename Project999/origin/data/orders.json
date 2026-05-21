@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ORD-2025-001",
+    "date": "2025-05-10",
+    "userId": "USR-2025-001",
+    "status": "completed",
+    "customer": {
+      "name": "John Doe",
+      "phone": "+380 50 123 4567",
+      "email": "john@example.com",
+      "address": "123 Main Street",
+      "city": "Kyiv"
+    },
+    "items": [
+      { "productId": 1, "name": "Brazil Santos", "qty": 2, "price": 18.99, "weight": "250g" },
+      { "productId": 8, "name": "Vanilla Syrup", "qty": 1, "price": 12.99, "weight": "250ml" }
+    ],
+    "subtotal": 50.97,
+    "tax": 10.19,
+    "shipping": 5.00,
+    "promoDiscount": 0,
+    "bonusDiscount": 0,
+    "total": 66.16
+  },
+  {
+    "id": "ORD-2025-002",
+    "date": "2025-05-12",
+    "userId": "USR-2025-002",
+    "status": "completed",
+    "customer": {
+      "name": "Maria Smith",
+      "phone": "+380 67 987 6543",
+      "email": "maria@example.com",
+      "address": "456 Oak Avenue",
+      "city": "Lviv"
+    },
+    "items": [
+      { "productId": 2, "name": "Ethiopia Yirgacheffe", "qty": 1, "price": 19.99, "weight": "250g" },
+      { "productId": 5, "name": "Caramel Syrup", "qty": 2, "price": 14.99, "weight": "250ml" }
+    ],
+    "subtotal": 49.97,
+    "tax": 9.99,
+    "shipping": 5.00,
+    "promoDiscount": 5.00,
+    "bonusDiscount": 0,
+    "total": 59.96
+  },
+  {
+    "id": "ORD-2025-003",
+    "date": "2025-05-14",
+    "userId": "USR-2025-001",
+    "status": "in-progress",
+    "customer": {
+      "name": "John Doe",
+      "phone": "+380 50 123 4567",
+      "email": "john@example.com",
+      "address": "789 Pine Road",
+      "city": "Kyiv"
+    },
+    "items": [
+      { "productId": 3, "name": "Colombia Supremo", "qty": 3, "price": 17.99, "weight": "250g" }
+    ],
+    "subtotal": 53.97,
+    "tax": 10.79,
+    "shipping": 5.00,
+    "promoDiscount": 0,
+    "bonusDiscount": 2.50,
+    "total": 67.26
+  },
+  {
+    "id": "ORD-2025-004",
+    "date": "2025-05-15",
+    "userId": "USR-2025-002",
+    "status": "completed",
+    "customer": {
+      "name": "Maria Smith",
+      "phone": "+380 67 987 6543",
+      "email": "maria@example.com",
+      "address": "321 Elm Street",
+      "city": "Lviv"
+    },
+    "items": [
+      { "productId": 4, "name": "Guatemala Antigua", "qty": 1, "price": 21.99, "weight": "250g" },
+      { "productId": 9, "name": "Hazelnut Syrup", "qty": 1, "price": 13.99, "weight": "250ml" },
+      { "productId": 12, "name": "Earl Grey Tea", "qty": 2, "price": 16.99, "weight": "100g" }
+    ],
+    "subtotal": 69.96,
+    "tax": 13.99,
+    "shipping": 5.00,
+    "promoDiscount": 0,
+    "bonusDiscount": 0,
+    "total": 88.95
+  }
+]

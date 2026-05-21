@@ -1,0 +1,20 @@
+[
+  {
+    "code": "WELCOME3",
+    "discount": 3,
+    "description": "3% знижка для нових клієнтів",
+    "active": true
+  },
+  {
+    "code": "SALE5",
+    "discount": 5,
+    "description": "5% знижка на всі товари",
+    "active": true
+  },
+  {
+    "code": "SUPER10",
+    "discount": 10,
+    "description": "10% знижка на замовлення від 1000 грн",
+    "active": true
+  }
+]

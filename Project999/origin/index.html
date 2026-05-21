@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Origin — curated coffees, rare teas and crafted syrups. Premium selection sourced directly from farmers.">
+
+    <meta property="og:title" content="Origin | Curated Coffees, Teas & Syrups">
+    <meta property="og:description" content="Origin — curated coffees, rare teas and crafted experiences.">
+    <meta property="og:type" content="website">
+
+    <title>Origin | Curated Coffees, Teas & Syrups</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&family=Nunito:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+    <!-- SKIP LINK -->
+    <a href="#main-content" class="sr-only focusable">Skip to main content</a>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <header class="site-header" id="site-header" role="banner">
+        <div class="header-inner">
+
+            <a href="#home" class="logo" aria-label="Origin — go to homepage">
+                <span class="logo-text">Origin</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="main-nav" aria-label="Main navigation" id="main-nav">
+                <ul>
+                    <li><a href="#home" data-link="home">Main</a></li>
+                    <li><a href="#catalog" data-link="catalog">Catalog</a></li>
+                    <li><a href="#about" data-link="about">MiniGame</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header Actions -->
+            <div class="header-actions" aria-label="User actions">
+
+                <span class="user-greeting" id="user-greeting" aria-live="polite"></span>
+
+                <!-- Cart button -->
+                <button class="header-btn cart-btn"
+                        aria-label="Open cart"
+                        id="cart-btn">
+                    🛒
+                    <span class="cart-badge" id="cart-badge" aria-label="items in cart">0</span>
+                </button>
+
+                <!-- Profile button -->
+                <button class="header-btn profile-btn"
+                        aria-label="User profile"
+                        id="profile-btn">
+                    <div class="user-avatar" id="user-avatar" aria-hidden="true">
+                        <span id="avatar-initials">?</span>
+                    </div>
+                </button>
+
+                <!-- Hamburger (mobile) -->
+                <button class="hamburger"
+                        id="hamburger-btn"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+            <ul>
+                <li><a href="#home">Main</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="#about">MiniGame</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main id="main-content" role="main" aria-live="polite">
+        <div id="view-container">
+            <div class="page-loader" id="page-loader" aria-label="Loading page">
+                <div class="loader-spinner"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer" role="contentinfo" id="site-footer">
+        <div class="footer-inner">
+
+            <section class="footer-brand" aria-labelledby="footer-brand-title">
+                <h2 id="footer-brand-title" class="footer-logo">Origin</h2>
+                <p class="footer-tagline">Curated coffees, rare teas and crafted experiences. Sourced directly from farmers, roasted in Kyiv.</p>
+                <small class="copyright">&copy; <span id="copyright-year">2026</span> ORIGIN. All rights reserved.</small>
+            </section>
+
+            <section class="footer-nav" aria-labelledby="footer-nav-title">
+                <h3 id="footer-nav-title">Navigation</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#catalog">Coffee</a></li>
+                    <li><a href="#catalog">Tea</a></li>
+                    <li><a href="#catalog">Syrups</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-team" aria-labelledby="footer-team-title">
+                <h3 id="footer-team-title">Development Team</h3>
+                <ul>
+                    <li>Gavrylenko Oleksiy</li>
+                    <li>Gromov Andriy</li>
+                    <li>Seniv Kateryna</li>
+                </ul>
+            </section>
+
+            <section class="footer-contact" aria-labelledby="footer-contact-title">
+                <h3 id="footer-contact-title">Support & Info</h3>
+                <address>
+                    <p>Ivano-Frankivsk, Ukraine</p>
+                    <p><a href="tel:+380000000000">+380 (XX) XXX XX XX</a></p>
+                    <p><a href="mailto:hello@origin.com">hello@origin.com</a></p>
+                </address>
+                <a href="#privacy" class="footer-link">Privacy Policy</a>
+            </section>
+
+        </div>
+    </footer>
+
+    <!-- ==================== TOAST ==================== -->
+    <div class="toast-container" id="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+    <!-- ==================== PRODUCT MODAL ==================== -->
+    <div class="product-modal" id="product-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-panel" id="modal-panel">
+            <div class="modal-header">
+                <button class="modal-close-btn" id="modal-close-btn" aria-label="Close product details">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- ==================== SCRIPTS (порядок важливий!) ==================== -->
+
+    <!-- 1. Core -->
+    <script src="js/store.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/api.js"></script>
+
+    <!-- 2. Components -->
+    <script src="js/components/navbar.js"></script>
+    <script src="js/components/footer.js"></script>
+
+    <!-- 3. Views -->
+    <script src="js/views/home.js"></script>
+    <script src="js/views/about.js"></script>
+    <script src="js/views/catalog.js"></script>
+    <script src="js/views/product.js"></script>
+    <script src="js/views/cart.js"></script>
+    <script src="js/views/auth.js"></script>
+    <script src="js/views/profile.js"></script>
+    <script src="js/views/admin.js"></script>
+
+    <!-- 4. App (останній!) -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>

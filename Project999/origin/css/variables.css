@@ -1,0 +1,51 @@
+/* ==================== CSS VARIABLES ==================== */
+:root {
+    /* Colors */
+    --clr-dark: #0d0d0d;
+    --clr-medium: #333333;
+    --clr-light: #666666;
+    --clr-accent: #c8a96e;
+    --clr-accent-hover: #b8924f;
+    --clr-bg: #fafafa;
+    --clr-bg-alt: #f4f0eb;
+    --clr-white: #ffffff;
+    --clr-border: #e5e5e5;
+    --clr-success: #28a745;
+    --clr-error: #dc3545;
+    --clr-warning: #ffc107;
+
+    /* Typography */
+    --ff-heading: 'Playfair Display', Georgia, serif;
+    --ff-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi: 600;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    /* Spacing */
+    --sp-xs: 4px;
+    --sp-sm: 8px;
+    --sp-md: 16px;
+    --sp-lg: 24px;
+    --sp-xl: 40px;
+    --sp-2xl: 64px;
+    --sp-3xl: 96px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+    --shadow-md: 0 4px 16px rgba(0,0,0,.12);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,.16);
+
+    /* Border radius */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    /* Transitions */
+    --transition: .3s cubic-bezier(.25,.46,.45,.94);
+
+    /* Layout */
+    --max-width: 1300px;
+    --header-h: 72px;
+}
