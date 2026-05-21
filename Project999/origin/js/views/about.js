@@ -383,7 +383,7 @@ const AboutView = (() => {
     // Завантаження зображення кавової чашки
     if (!_coffeeCupImage) {
       _coffeeCupImage = new Image();
-      _coffeeCupImage.src = '/origin/images/game/ChatGPTCoffee.png';
+     _coffeeCupImage.src = './images/game/ChatGPTCoffee.png';
     }
 
     const main = document.getElementById('main-content');
